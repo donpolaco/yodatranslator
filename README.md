@@ -21,19 +21,24 @@ python -m pip install -U pip setuptools wheel
 
 Choose your installation method:
 
-I. Directly from github:
+### I. Directly from github:
 1. Type in your console:
 ```shell
 pip install git+https://github.com/donpolaco/yodatranslator.git
 ```
 2. That's all!
 
-II. Indirect method:
 
-1. Download or clone the repository,  ig.:
+
+###II. Indirect method:
+
+1. Download the repository from: https://github.com/donpolaco/yodatranslator (button: Code/download ZIP) and unzip it
+   
+or clone the repository by typing:
 ```shell
 git clone https://github.com/donpolaco/yodatranslator.git
 ``` 
+
 2. Go to the project directory:
 ```shell
 cd yodatranslator
@@ -68,9 +73,22 @@ import yodatranslator
 ```
 
 ## A file manifest
-
-To be written...
-
+```
+yodatranslator
+│   .gitignore
+│   LICENSE
+│   MANIFEST.in
+│   pyproject.toml
+│   README.md
+│   requirements.txt
+│   setup.cfg
+│   
+└───src
+    └───yodatranslator
+            translator.py
+            __init__.py
+            __main__.py
+```
 ## Copyright and licensing information
 
 MIT License
