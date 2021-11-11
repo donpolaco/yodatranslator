@@ -1,1 +1,1 @@
-
+from .translator import translate

@@ -7,7 +7,7 @@ Training project illustrates how to use setup.cfg and CLI scripts.
 
 import argparse
 
-from translator import translate
+from .translator import translate
 
 
 def arg_parser() -> dict:
