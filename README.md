@@ -19,8 +19,26 @@ python -m pip install -U pip setuptools wheel
 
 ## Installation instructions
 
-Download / clone the repository and use from the project directory:
+Choose your installation method:
 
+I. Directly from github:
+1. Type in your console:
+```shell
+pip install git+https://github.com/donpolaco/yodatranslator.git
+```
+2. That's all!
+
+II. Indirect method:
+
+1. Download or clone the repository,  ig.:
+```shell
+git clone https://github.com/donpolaco/yodatranslator.git
+``` 
+2. Go to the project directory:
+```shell
+cd yodatranslator
+```
+3. Install from direcory:
 ```shell
 pip install .
 ```
@@ -29,7 +47,7 @@ pip install .
 
 Yodatranslator may be use as a python package or as a command line tool.
 
-1. In order to use it as a command line tool type:
+1. In order to use it as a command line tool just type:
 
 ```shell
 yodatranslator words [words ...] 
@@ -49,7 +67,7 @@ for help.
 import yodatranslator
 ```
 
-## A file manifest (list of files included)
+## A file manifest
 
 To be written...
 
